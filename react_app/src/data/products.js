@@ -220,7 +220,7 @@
 //   return product;
 // }
 
-const BASE_URL='http://127.0.0.1:8000/api/v1';
+const BASE_URL='https://cake-website-backend.onrender.com/api/v1';
 
 export async function fetchproducts(){
   const res=await fetch(`${BASE_URL}/products/`);

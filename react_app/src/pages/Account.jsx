@@ -32,7 +32,7 @@ export default function Account() {
       username,password
     }
       try{
-        const response=await axios.post('http://127.0.0.1:8000/api/v1/token/',userdata)
+        const response=await axios.post('https://cake-website-backend.onrender.com/api/v1/token/',userdata)
         // console.log(response.data)
         localStorage.setItem('accessToken',response.data.access)
         localStorage.setItem('refreshToken',response.data.refresh)
@@ -53,7 +53,7 @@ export default function Account() {
       username,email,password
     }
     try{
-      const response=await axios.post('http://127.0.0.1:8000/api/v1/registered/',userdata)
+      const response=await axios.post('https://cake-website-backend.onrender.com/api/v1/registered/',userdata)
       console.log(response.data)
       navigate('/')
       setErrors({})

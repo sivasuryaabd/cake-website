@@ -25,7 +25,7 @@ export default function UserDetails() {
     setLoading(true);
     try {
       const token = localStorage.getItem('accessToken');
-      const res = await axios.get('http://127.0.0.1:8000/api/v1/user/me/', {
+      const res = await axios.get('https://cake-website-backend.onrender.com/api/v1/user/me/', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setUser(res.data);
