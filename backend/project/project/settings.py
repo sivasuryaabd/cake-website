@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     '.onrender.com',
+    'cake-website-gilt-two.vercel.app/',
 ]
 
 
@@ -88,7 +89,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASE_URL=os.environ.get('DATTABASE_URL')
+DATABASE_URL=os.environ.get('DATABASE_URL')
 if DATABASE_URL:
     # Production - Render PostgreSQL
     DATABASES = {
@@ -155,6 +156,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:5173",
+    "https://cake-website-backend.onrender.com",
+    "https://cake-website-gilt-two.vercel.app",
     # vercel url
 ]
 
