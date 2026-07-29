@@ -229,7 +229,7 @@ export async function fetchproducts(){
 }
 
 export async function fetchproductById(id){
-  const res=await fetch(`${BASE_URL}/api/products/${id}/`);
+  const res=await fetch(`${BASE_URL}/products/${id}/`);
   if (!res.ok) throw new Error('products not found.');
   return res.json();
 }
