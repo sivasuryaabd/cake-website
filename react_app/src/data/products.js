@@ -220,7 +220,9 @@
 //   return product;
 // }
 
-const BASE_URL='https://cake-website-backend.onrender.com/api/v1';
+// const BASE_URL='https://cake-website-backend.onrender.com/api/v1';
+
+const BASE_URL=import.meta.env.VITE_API_URL;
 
 export async function fetchproducts(){
   const res=await fetch(`${BASE_URL}/products/`);
