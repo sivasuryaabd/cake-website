@@ -3,6 +3,6 @@ export const API_URL="${BASE_URL}/api/v1"
 
 export function mediaUrl(path){
     if(!path) return '';
-    if(path.startsWith('https://')) return path;
+    if(path.startsWith('http')) return path;
     return `${BASE_URL}${path}`;
 }
