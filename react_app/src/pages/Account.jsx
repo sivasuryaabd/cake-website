@@ -32,7 +32,7 @@ export default function Account() {
       username,password
     }
       try{
-        const response=await axios.post('https://cake-website-backend.onrender.com/api/v1/token/',userdata)
+        const response=await axios.post(`${import.meta.env.VITE_API_URL}/token/`,userdata)
         // console.log(response.data)
         localStorage.setItem('accessToken',response.data.access)
         localStorage.setItem('refreshToken',response.data.refresh)
