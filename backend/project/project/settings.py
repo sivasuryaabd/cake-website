@@ -160,15 +160,15 @@ CORS_ALLOWED_ORIGINS = [
     "https://cake-website-gilt-two.vercel.app",
     # vercel url
 ]
-# CORS_ALLOWED_CREDENTIALS= True
+CORS_ALLOWED_CREDENTIALS= True
 
-# CORS_ALLOWED_HEADERS=[
-#     'accept',
-#     'authorization',
-#     'content-type',
-#     'origin',
-#     'x-requested-with',
-# ]
+CORS_ALLOWED_HEADERS=[
+    'accept',
+    'authorization',
+    'content-type',
+    'origin',
+    'x-requested-with',
+]
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
