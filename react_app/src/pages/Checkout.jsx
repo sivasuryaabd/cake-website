@@ -78,7 +78,7 @@ export default function Checkout() {
   async function goNext() {
     console.log(shipping)
     try{
-      const response=await axios.post("http://127.0.0.1:8000/api/v1/order/",shipping)
+      const response=await axios.post(`${import.meta.env.VITE_API_URL}/order/`,shipping)
       console.log(response.data)
       if (step === 0 && !validateShipping()) return;
       if (step === 1 && !validatePayment()) return;
