@@ -1,0 +1,224 @@
+[
+{
+  "model": "app.product",
+  "pk": 1,
+  "fields": {
+    "name": "Midnight Drip Stack",
+    "tagline": "Dark chocolate sponge, salted caramel drip",
+    "description": "Three layers of dark chocolate sponge soaked in espresso syrup, filled with salted caramel buttercream, and finished with a slow chocolate drip, gold dragees, and chocolate shards. The one to order when you want the table to go quiet for a second.",
+    "price": 500,
+    "category": "chocolate",
+    "tags": [
+      "bestseller",
+      "celebration"
+    ],
+    "image": "products/cake_1.jpg",
+    "rating": 4.9,
+    "reviewcount": 214,
+    "stock": 20
+  }
+},
+{
+  "model": "app.product",
+  "pk": 2,
+  "fields": {
+    "name": "Sprinkle Lagoon",
+    "tagline": "Vanilla bean cake, teal frosting, rainbow sprinkles",
+    "description": "A bright vanilla bean sponge wrapped in silky vanilla buttercream, crowned with a teal frosting pool and a hard candy shell drip. Sprinkles run the whole way round the base. Built for birthdays that want to be seen.",
+    "price": 450,
+    "category": "vanilla",
+    "tags": [
+      "birthday",
+      "kids-favorite"
+    ],
+    "image": "products/cake_2.jpg",
+    "rating": 4.7,
+    "reviewcount": 158,
+    "stock": 23
+  }
+},
+{
+  "model": "app.product",
+  "pk": 3,
+  "fields": {
+    "name": "Classic Black Forest",
+    "tagline": "Chocolate sponge, kirsch cherries, whipped cream",
+    "description": "The original. Two tiers of cocoa sponge brushed with kirsch, layered with whipped cream and black cherries, topped with more cream rosettes and a crown of cherries. Old-school, and unapologetic about it.",
+    "price": 380,
+    "category": "fruit",
+    "tags": [
+      "classic"
+    ],
+    "image": "products/cake_3.jpg",
+    "rating": 4.8,
+    "reviewcount": 117,
+    "stock": 30
+  }
+},
+{
+  "model": "app.product",
+  "pk": 4,
+  "fields": {
+    "name": "Cookies & Cream Crash",
+    "tagline": "Cocoa sponge, cookie crumble, whole cookies on top",
+    "description": "Chocolate cake layered with cookies-and-cream filling, coated in crushed cookie crumbs, and finished with a chocolate drip and a ring of whole sandwich cookies standing guard on top. For people who eat dessert first.",
+    "price": 410,
+    "category": "chocolate",
+    "tags": [
+      "bestseller"
+    ],
+    "image": "products/cake_4.jpg",
+    "rating": 3.8,
+    "reviewcount": 125,
+    "stock": 18
+  }
+},
+{
+  "model": "app.product",
+  "pk": 5,
+  "fields": {
+    "name": "Garden Party Chocolate",
+    "tagline": "Rich cocoa cake, buttercream florals",
+    "description": "A dense, fudgy chocolate cake piped with a hand-built garden of pink, yellow, and green buttercream flowers across the top edge. Quietly the most requested cake for anniversaries on our list.",
+    "price": 440,
+    "category": "chocolate",
+    "tags": [
+      "anniversary"
+    ],
+    "image": "products/cake_5.jpg",
+    "rating": 4.1,
+    "reviewcount": 132,
+    "stock": 3
+  }
+},
+{
+  "model": "app.product",
+  "pk": 6,
+  "fields": {
+    "name": "Blush Rosette",
+    "tagline": "Pink ombre buttercream, gold sprinkle base",
+    "description": "Soft pink buttercream piped into a crown of rosettes around the top, fading into a clean white body ringed with a confetti of pastel and gold sprinkles. Elegant without trying hard.",
+    "price": 230,
+    "category": "vanilla",
+    "tags": [
+      "birthday",
+      "bestseller"
+    ],
+    "image": "products/cake_6.jpg",
+    "rating": 3.0,
+    "reviewcount": 70,
+    "stock": 2
+  }
+},
+{
+  "model": "app.product",
+  "pk": 7,
+  "fields": {
+    "name": "Citrus & Cocoa Drip",
+    "tagline": "Lemon-curd center, dark chocolate shell",
+    "description": "A bright lemon curd core hidden inside a moist vanilla base, glazed in dark chocolate ganache and topped with chocolate donuts, wafer rounds, and a scatter of nuts. Sweet with a sharp little surprise in the middle.",
+    "price": 520,
+    "category": "specialty",
+    "tags": [
+      "new"
+    ],
+    "image": "products/cake_7.jpg",
+    "rating": 3.8,
+    "reviewcount": 145,
+    "stock": 5
+  }
+},
+{
+  "model": "app.product",
+  "pk": 8,
+  "fields": {
+    "name": "Baker's Rosette Bouquet",
+    "tagline": "Milk chocolate florals, \"Happy Birthday\" script",
+    "description": "A full bouquet of milk and dark chocolate buttercream roses piped across the top, with a chocolate drip running down the sides and a handwritten \"Happy Birthday\" in dark cocoa. Built to be the centerpiece.",
+    "price": 230,
+    "category": "chocolate",
+    "tags": [
+      "celebration",
+      "bestseller"
+    ],
+    "image": "products/cake_8.jpg",
+    "rating": 4.6,
+    "reviewcount": 230,
+    "stock": 25
+  }
+},
+{
+  "model": "app.product",
+  "pk": 9,
+  "fields": {
+    "name": "Blackberry Drip",
+    "tagline": "Mixed-berry glaze, white chocolate discs",
+    "description": "A pale vanilla cake bathed in a deep blackberry glaze, ringed with whipped cream rosettes and topped with fresh blackberries and hand-painted white chocolate discs. Tart, floral, and a little dramatic.",
+    "price": 540,
+    "category": "fruit",
+    "tags": [
+      "seasonal"
+    ],
+    "image": "products/cake_9.jpg",
+    "rating": 3.5,
+    "reviewcount": 110,
+    "stock": 4
+  }
+},
+{
+  "model": "app.product",
+  "pk": 10,
+  "fields": {
+    "name": "Harvest Tier",
+    "tagline": "Three-tier naked cake, fresh fruit & edible flowers",
+    "description": "Three semi-naked tiers stacked tall and dressed almost entirely in fresh fruit, berries, and edible flowers cascading down one side. The cake for weddings and milestone birthdays that want a \"wow\" at first sight.",
+    "price": 260,
+    "category": "specialty",
+    "tags": [
+      "wedding",
+      "tiered"
+    ],
+    "image": "products/cake_10.jpg",
+    "rating": 4.8,
+    "reviewcount": 147,
+    "stock": 6
+  }
+},
+{
+  "model": "app.product",
+  "pk": 11,
+  "fields": {
+    "name": "Cherry Noir",
+    "tagline": "Glossy dark chocolate shell, fresh cherries, red ribbon",
+    "description": "A deep, glossy dark chocolate mirror glaze over chocolate sponge, scattered with shaved chocolate curls and fresh cherries, finished with a red satin ribbon tied around the base. Dramatic, a little gothic, completely delicious.",
+    "price": 315,
+    "category": "chocolate",
+    "tags": [
+      "celebration"
+    ],
+    "image": "products/cake_11.jpg",
+    "rating": 4.2,
+    "reviewcount": 150,
+    "stock": 21
+  }
+},
+{
+  "model": "app.product",
+  "pk": 12,
+  "fields": {
+    "name": "Golden Hour Drip",
+    "tagline": "Chocolate sponge, gold leaf accents, festive toppers",
+    "description": "Chocolate cake finished with a glossy drip, gold-dusted chocolates, macarons, and a \"Happy Birthday\" topper on a bed of fresh greenery. The cake that photographs as well as it tastes.",
+    "price": 180,
+    "category": "chocolate",
+    "tags": [
+      "birthday",
+      "bestseller"
+    ],
+    "image": "products/cake_12.jpg",
+    "rating": 3.7,
+    "reviewcount": 60,
+    "stock": 17
+  }
+}
+]
