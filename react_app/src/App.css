@@ -929,7 +929,7 @@ main {
   align-items: start;
 }
 .checkout-form-panel {
-  background: var(--white);
+  background: black;
   border-radius: var(--radius-md);
   padding: 32px;
   box-shadow: var(--shadow-soft);
@@ -1074,7 +1074,7 @@ main {
 .account-card {
   max-width: 420px;
   width: 100%;
-  background: var(--white);
+  background: black;
   border-radius: var(--radius-md);
   padding: 32px;
   box-shadow: var(--shadow-soft);
